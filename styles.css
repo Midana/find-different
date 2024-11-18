@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.game-image {
+    width: 500px;
+    height: 750px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+.highlight {
+    position: absolute; /* 绝对定位 */
+    width: 20px; /* 圈的宽度 */
+    height: 20px; /* 圈的高度 */
+    border-radius: 50%; /* 边框半径为50%，形成圆形 */
+    background-color: red; /* 圈的背景颜色为红色 */
+    z-index: 1000; /* 确保圈在其他元素之上 */
+    box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.7); /* 添加阴影效果，增强视觉效果 */
+}
